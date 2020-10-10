@@ -4,8 +4,8 @@
 import pyautogui as pg
 import socket
 
-host = '192.168.0.17'  # as both code is running on same pc
-port = int(input('Port'))  # socket server port number
+host = input('Host: ')  # as both code is running on same pc
+port = int(input('Port: '))  # socket server port number
 
 client_socket = socket.socket()  # instantiate
 client_socket.connect((host, port))  # connect to the server
