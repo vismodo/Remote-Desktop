@@ -17,7 +17,7 @@ def type_box():
     send_but.pack()
     nl_but.pack()
     tp_fr.mainloop()
-port = random.randint(1000, 10000)
+port = randint(1000, 10000)
 k = tk.Tk()
 showinfo('Control Data','Host = '+socket.gethostbyname(socket.gethostname())+'\nPort = '+str(port))
 k.destroy()
