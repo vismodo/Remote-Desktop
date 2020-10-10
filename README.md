@@ -16,13 +16,13 @@ Aren't you tired of intructing a person on a call to use their computer? This pr
 pip install pyautogui
 ```
 
-* You now need to download [`server.py`]() to one of the computers and [`client.py`]() to the rest.
+* You now need to download [`server.py`](https://github.com/vismodo/Remote-Desktop/blob/main/server.py) to one of the computers and [`client.py`]() to the rest.
 
-* Now run [`server.py`]() on and note the IP address as well as the port that comes as an alert.
+* Now run [`server.py`](https://github.com/vismodo/Remote-Desktop/blob/main/server.py) on and note the IP address as well as the port that comes as an alert.
 
 * On the other computers, run [`client.py`](). When it asks for the <b>Host IP Address and the Port</b>, type the details that you saw in the alert.
 
-* On the computer running [`server.py`](), you should now see a tkinter window. This window is your virtual touchpad. Click inside the window, and as your cursor moves inside that window, the cursor will move simultaniosly on the client computers!
+* On the computer running [`server.py`](https://github.com/vismodo/Remote-Desktop/blob/main/server.py), you should now see a tkinter window. This window is your virtual touchpad. Click inside the window, and as your cursor moves inside that window, the cursor will move simultaniosly on the client computers!
 * You can adjust the window so that the touchpad can reach each end of the client computer. You can use <b>Control + l</b> for left click, <b>Control + r</b> for right click and <b>Control + d</b> for double click. I am working on adding dragging functionality to the touchpad too!
 
 * To type text, click on the <b>'Text'</b> button from the menu of the touchpad. This should bring up a window. Use the text field to enter your text, and click on the <b>'Type Text'</b> button to type the text on the clients, <b>'Delete'</b> for 'backspace' and <b>'Enter'</b> for a new line.
