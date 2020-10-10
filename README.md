@@ -8,6 +8,11 @@ Aren't you tired of intructing a person on a call to use their computer? This pr
 * Two or more computers running Windows / macOS / Linux
 * All computers need to be connected to the same network
 
+## Run on Repl.it
+
+* Server Script: [![Run on Repl.it](https://repl.it/badge/github/vismodo/Remote-Desktop)](https://repl.it/github/vismodo/Remote-Desktop)
+* Client Script
+
 ## Usage
 
 * We first need to install the [`pyautogui`](https://pyautogui.readthedocs.io/en/latest/) module to control the cursor and keyboard. Launch <b>Command Prompt</b> or <b>Terminal</b> and type the following:
@@ -16,7 +21,7 @@ Aren't you tired of intructing a person on a call to use their computer? This pr
 pip install pyautogui
 ```
 
-* You now need to download [`server.py`](https://github.com/vismodo/Remote-Desktop/blob/main/server.py) to one of the computers and [`client.py`](https://github.com/vismodo/Remote-Desktop/blob/main/client.py) to the rest.
+* You now need to download [`server.py`](https://github.com/vismodo/Remote-Desktop/blob/main/server.py) onto one of the computers and [`client.py`](https://github.com/vismodo/Remote-Desktop/blob/main/client.py) to the rest.
 
 * Now run [`server.py`](https://github.com/vismodo/Remote-Desktop/blob/main/server.py) on and note the IP address as well as the port that comes as an alert.
 
