@@ -10,8 +10,8 @@ Aren't you tired of intructing a person on a call to use their computer? This pr
 
 ## Run on Repl.it
 
-* Server Script: [![Run on Repl.it](https://repl.it/badge/github/vismodo/Remote-Desktop-Server)](https://repl.it/github/vismodo/Remote-Desktop-Server)
-* Client Script: [![Run on Repl.it](https://repl.it/badge/github/vismodo/Remote-Desktop-Client)](https://repl.it/github/vismodo/Remote-Desktop-Client)
+* [Server Script](https://repl.it/@vismodo/Remote-Desktop-Server)
+* [Client Script](https://repl.it/@vismodo/Remote-Desktop-Client)
 ## Usage
 
 * We first need to install the [`pyautogui`](https://pyautogui.readthedocs.io/en/latest/) module to control the cursor and keyboard. Launch <b>Command Prompt</b> or <b>Terminal</b> and type the following:
